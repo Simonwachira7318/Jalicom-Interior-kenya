@@ -4,10 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
+    <link rel="icon" href="./media/logo2.png">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.9.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body class="bg-black">
-    <div class=" h-screen">
-        <div class="w-full max-w-full px-3 mx-auto mt-0 md:flex-0 shrink-0">
+<body class="p-6">
+    <div class="p-6 flex mx-auto">
+        <div class="w-[500px] max-w-full px-3 mx-auto mt-0 md:flex-0 shrink-0">
             <div class="relative z-0 flex flex-col min-w-0 break-words bg-white border-0 shadow-soft-xl rounded-2xl bg-clip-border">
               <div class="p-6 mb-0 text-center bg-white border-b-0 rounded-t-2xl">
                 <h5>Register with</h5>
@@ -18,7 +24,8 @@
                     <svg xmlns:xlink="http://www.w3.org/1999/xlink32" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 64 64" height="32px" width="24px">
                       <g fill-rule="evenodd" fill="none" stroke-width="1" stroke="none">
                         <g fill-rule="nonzero" transform="translate(3.000000, 3.000000)">
-                          <circle r="29.4882047" cy="29.4927506" cx="29.5091719" fill="#3C5A9A"></circle>
+                          <circle r="29.4882047" cy="29.4927506" cx="29.5091719" fill="#3C5A9A">
+                          </circle>
                           <path fill="#FFFFFF" d="M39.0974944,9.05587273 L32.5651312,9.05587273 C28.6886088,9.05587273 24.3768224,10.6862851 24.3768224,16.3054653 C24.395747,18.2634019 24.3768224,20.1385313 24.3768224,22.2488655 L19.8922122,22.2488655 L19.8922122,29.3852113 L24.5156022,29.3852113 L24.5156022,49.9295284 L33.0113092,49.9295284 L33.0113092,29.2496356 L38.6187742,29.2496356 L39.1261316,22.2288395 L32.8649196,22.2288395 C32.8649196,22.2288395 32.8789377,19.1056932 32.8649196,18.1987181 C32.8649196,15.9781412 35.1755132,16.1053059 35.3144932,16.1053059 C36.4140178,16.1053059 38.5518876,16.1085101 39.1006986,16.1053059 L39.1006986,9.05587273 L39.0974944,9.05587273 L39.0974944,9.05587273 Z"></path>
                         </g>
                       </g>
@@ -66,7 +73,7 @@
                     <input aria-describedby="password-addon" aria-label="Password" placeholder="Password" class="text-sm focus:shadow-soft-primary-outline leading-5.6 ease-soft block w-full appearance-none rounded-lg border border-solid border-gray-300 bg-white bg-clip-padding py-2 px-3 font-normal text-gray-700 transition-all focus:border-fuchsia-300 focus:bg-white focus:text-gray-700 focus:outline-none focus:transition-shadow" type="password">
                   </div>
                   <div class="min-h-6 pl-7 mb-0.5 block">
-            <input checked="" value="" type="checkbox" class="w-5 h-5 ease-soft -ml-7 rounded-1.4 checked:bg-gradient-to-tl checked:from-gray-900 checked:to-slate-800 after:duration-250 after:ease-soft-in-out duration-250 relative float-left mt-1 cursor-pointer appearance-none border border-solid border-slate-200 bg-white bg-contain bg-center bg-no-repeat align-top transition-all after:absolute after:flex after:h-full after:w-full after:items-center after:justify-center after:text-white after:opacity-0 after:transition-all checked:border-0 checked:border-transparent checked:bg-transparent checked:after:opacity-100" id="terms">
+            <input checked="" value="" type="checkbox" class="w-5 h-5 ease-soft -ml-7 rounded-1.4 checked:bg-gradient-to-tl checked:from-black checked:to-blue-800 after:duration-250 after:ease-soft-in-out duration-250 relative float-left mt-1 cursor-pointer appearance-none border border-solid border-red-500 bg-blue-600 text-red-600 bg-contain bg-center bg-no-repeat align-top transition-all after:absolute after:flex after:h-full after:w-full after:items-center after:justify-center after:text-white after:opacity-0 after:transition-all checked:border-0 checked:border-transparent checked:bg-transparent checked:after:opacity-100" id="terms">
             <label for="terms" class="mb-2 ml-1 font-normal cursor-pointer select-none text-sm text-slate-700"> I agree the <a class="font-bold text-slate-700">Terms and Conditions</a>
               <svg viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg" class="w-4 h-4 inline ml-1 fill-current text-green-500">
                 <path d="M6.293 9.293a1 1 0 0 1 1.414 0L10 10.586l2.293-2.293a1 1 0 1 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"></path>
@@ -77,9 +84,11 @@
                   <div class="text-center">
                     <button class="inline-block w-full px-6 py-3 mt-6 mb-2 font-bold text-center text-white uppercase align-middle transition-all bg-transparent border-0 rounded-lg cursor-pointer active:opacity-85 hover:scale-102 hover:shadow-soft-xs leading-pro text-xs ease-soft-in tracking-tight-soft shadow-soft-md bg-150 bg-x-25 bg-gradient-to-tl from-gray-900 to-slate-800 hover:border-slate-700 hover:bg-slate-700 hover:text-white" type="button">Sign up</button>
                   </div>
-                  <p class="mt-4 mb-0 leading-normal text-sm">Already have an account? <a class="font-bold text-slate-700" href="../pages/sign-in.html">Sign in</a></p>
+                  <p class="mt-4 mb-0 leading-normal text-sm">Already have an account? <a class="font-bold text-slate-700" href="#">Sign in</a></p>
                 </form>
-                <a href="./index.html"><button class="bg-teal-500 py-2 px-6"> Back Home</button></a>
+                <div class=" flex justify-center align-middle mt-4">
+                  <a href="./index.html"><button class="bg-blue-500 hover:bg-blue-600 rounded-lg py-2 px-6 text-white"> Back Home</button></a>
+                </div>
               </div>
             </div>
           </div>
